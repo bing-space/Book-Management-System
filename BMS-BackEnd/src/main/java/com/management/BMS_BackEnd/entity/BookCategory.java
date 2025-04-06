@@ -24,7 +24,7 @@ public class BookCategory {
 	@Column(name = "id")
 	private Long id;
 
-	@Column(name = "category_type")
+	@Column(name = "category")
 	private String categoryType;
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "category")

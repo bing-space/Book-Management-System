@@ -24,7 +24,7 @@ public class BookStatus {
 	@Column(name = "id")
 	private Long id;
 
-	@Column(name = "status_name")
+	@Column(name = "status")
 	private String statusName;
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "status")
